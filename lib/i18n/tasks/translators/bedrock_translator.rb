@@ -17,7 +17,7 @@ module I18n::Tasks::Translators
       an array with the translated values and nothing else.
 
       HTML markups (enclosed in < and > characters) must not be changed under any circumstance.
-      Variables (starting with %%{ and ending with }) must not be changed under any circumstance.
+      Variables (starting with #{UNTRANSLATABLE_STRING}) must not be changed under any circumstance.
 
       Keep in mind the context of all the strings for a more accurate translation.
     PROMPT
