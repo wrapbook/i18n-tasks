@@ -5,6 +5,9 @@ en:
       added:
         one: Added %{count} key
         other: Added %{count} keys
+    bedrock_translate:
+      errors:
+        no_results: AWS Bedrock returned no results.
     cmd:
       args:
         default_text: 'Default: %{value}'

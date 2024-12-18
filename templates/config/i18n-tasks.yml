@@ -106,6 +106,26 @@ search:
 
 ## Translation Services
 # translation:
+#   # AWS Bedrock
+#   #
+#   # bedrock_client_options: # See options available here: https://docs.aws.amazon.com/sdk-for-ruby/v3/api/Aws/BedrockRuntime/Client.html#initialize-instance_method
+#   # bedrock_model_id: "us.anthropic.claude-3-5-sonnet-20241022-v2:0"
+#   #
+#   # System prompt. May contain `%{from}` and `%{to}`, which will be replaced by source and target locale codes,
+#   # respectively (using `Kernel.format`)
+#   # bedrock_system_prompt: >-
+#   #   You are a professional translator that translates content from the %{from} locale
+#   #   to the %{to} locale in an i18n locale array.
+#   #
+#   #   The array has a structured format and contains multiple strings. Your task is to translate
+#   #   each of these strings and create a new array with the translated strings. Please return only
+#   #   an array with the translated values and nothing else.
+#   #
+#   #   HTML markups (enclosed in < and > characters) must not be changed under any circumstance.
+#   #   Variables (starting with %%{ and ending with }) must not be changed under any circumstance.
+#   #
+#   #   Keep in mind the context of all the strings for a more accurate translation.
+#   #
 #   # Google Translate
 #   # Get an API key and set billing info at https://code.google.com/apis/console to use Google Translate
 #   google_translate_api_key: "AbC-dEf5"

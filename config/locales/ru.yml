@@ -3,6 +3,9 @@ ru:
   i18n_tasks:
     add_missing:
       added: Добавлены ключи (%{count})
+    bedrock_translate:
+      errors:
+        no_results: AWS Bedrock не дал результатов.
     cmd:
       args:
         default_text: 'По умолчанию: %{value}'
