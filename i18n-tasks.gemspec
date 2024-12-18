@@ -60,6 +60,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'yard'
 
   # Translation backends
+  s.add_development_dependency 'aws-sdk-bedrockruntime', '~> 1.0'
   s.add_development_dependency 'deepl-rb', '>= 2.1.0'
   s.add_development_dependency 'easy_translate', '>= 0.5.1' # Google Translate
   s.add_development_dependency 'yandex-translator', '>= 0.3.3'
